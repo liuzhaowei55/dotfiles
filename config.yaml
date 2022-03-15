@@ -3,6 +3,9 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  f_inputrc:
+    dst: ~/.inputrc
+    src: .inputrc
   f_vimrc:
     dst: ~/.vimrc
     src: .vimrc
@@ -12,5 +15,6 @@ dotfiles:
 profiles:
   home:
     dotfiles:
+      - f_inputrc
       - f_vimrc
       - f_zsh_alias

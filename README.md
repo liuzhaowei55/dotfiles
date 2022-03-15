@@ -3,6 +3,10 @@
 ## 安装
 
 ```bash
+git clone git@github.com:liuzhaowei55/dotfiles.git ~/.dotfiles
+```
+
+```bash
 # 安装 dotdrop
 pip3 install -r dotdrop/requirements.txt --user
 # 安装依赖
