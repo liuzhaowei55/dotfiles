@@ -23,7 +23,16 @@ dotfiles:
     dst: ~/bin/today
     chmod: "755"
 profiles:
+  # home
   WheredeMacBook-Pro.local:
+    dotfiles:
+      - f_inputrc
+      - f_vimrc
+      - d_zsh_custom
+      - f_daily
+      - f_today
+  # work
+  wheredeMacBook-Pro-2.local:
     dotfiles:
       - f_inputrc
       - f_vimrc
