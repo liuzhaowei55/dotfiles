@@ -2,6 +2,8 @@ config:
   backup: true
   create: true
   dotpath: dotfiles
+  cmpignore:
+    - "*/.DS_Store"
 dotfiles:
   f_inputrc:
     dst: ~/.inputrc
@@ -9,12 +11,12 @@ dotfiles:
   f_vimrc:
     dst: ~/.vimrc
     src: .vimrc
-  f_zsh_alias:
-    dst: ~/.oh-my-zsh/custom/alias.zsh
-    src: .oh-my-zsh/custom/alias.zsh
+  d_zsh_custom:
+    dst: ~/.oh-my-zsh/custom
+    src: .oh-my-zsh/custom
 profiles:
   home:
     dotfiles:
       - f_inputrc
       - f_vimrc
-      - f_zsh_alias
+      - d_zsh_custom
