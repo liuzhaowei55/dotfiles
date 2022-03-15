@@ -1,0 +1,25 @@
+#!/usr/bin/env zsh
+
+echo "\n====== upgrade_oh_my_zsh ======"
+sh $ZSH/tools/upgrade.sh
+
+echo "\n====== brew update ======"
+brew update
+
+echo "\n====== brew upgrade ======"
+brew upgrade
+
+echo "\n====== brew cask upgrade ======"
+brew upgrade --cask
+
+echo "\n====== brew cleanup ======"
+brew cleanup
+
+echo "\n====== composer self-update ======"
+composer self-update
+
+echo "\n====== composer global update ======"
+composer global update
+
+echo "\n====== npm update -g --save ======"
+npm update -g --save

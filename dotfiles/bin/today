@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+printf "\n====== ISO8601 周 ======\n"
+date +%G-W%V
