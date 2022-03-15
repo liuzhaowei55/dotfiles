@@ -4,4 +4,4 @@ alias sign="sudo xattr -r -d com.apple.quarantine "
 # https://github.com/deadc0de6/dotdrop#as-a-submodule
 alias dotdrop="$HOME/.dotfiles/dotdrop.sh --cfg=$HOME/.dotfiles/config.yaml"
 
-alias ls="ls -all"
+alias ls="ls -all -G"
