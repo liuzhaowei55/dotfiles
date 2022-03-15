@@ -1,0 +1,16 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_vimrc:
+    dst: ~/.vimrc
+    src: .vimrc
+  f_zsh_alias:
+    dst: ~/.oh-my-zsh/custom/alias.zsh
+    src: .oh-my-zsh/custom/alias.zsh
+profiles:
+  home:
+    dotfiles:
+      - f_vimrc
+      - f_zsh_alias
