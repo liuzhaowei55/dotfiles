@@ -3,23 +3,29 @@
 echo "\n====== upgrade_oh_my_zsh ======"
 sh $ZSH/tools/upgrade.sh
 
-echo "\n====== brew update ======"
-brew update
+if command -v brew >/dev/null 2>&1; then
+    echo "\n====== brew update ======"
+    brew update
 
-echo "\n====== brew upgrade ======"
-brew upgrade
+    echo "\n====== brew upgrade ======"
+    brew upgrade
 
-echo "\n====== brew cask upgrade ======"
-brew upgrade --cask
+    echo "\n====== brew cask upgrade ======"
+    brew upgrade --cask
 
-echo "\n====== brew cleanup ======"
-brew cleanup
+    echo "\n====== brew cleanup ======"
+    brew cleanup
+fi
 
-echo "\n====== composer self-update ======"
-composer self-update
+if command -v composer >/dev/null 2>&1; then
+    echo "\n====== composer self-update ======"
+    composer self-update
 
-echo "\n====== composer global update ======"
-composer global update
+    echo "\n====== composer global update ======"
+    composer global update
+fi
 
-echo "\n====== npm update -g --save ======"
-npm update -g --save
+if command -v npm >/dev/null 2>&1; then
+    echo "\n====== npm update -g --save ======"
+    npm update -g --save
+fi
