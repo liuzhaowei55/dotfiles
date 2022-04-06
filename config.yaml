@@ -5,6 +5,9 @@ config:
   cmpignore:
     - "*/.DS_Store"
 dotfiles:
+  d_hammerspoon:
+    src: .hammerspoon
+    dst: ~/.hammerspoon
   f_inputrc:
     src: .inputrc
     dst: ~/.inputrc
@@ -26,6 +29,7 @@ profiles:
   # home
   WheredeMacBook-Pro.local:
     dotfiles:
+      - d_hammerspoon
       - f_inputrc
       - f_vimrc
       - d_zsh_custom
@@ -34,8 +38,9 @@ profiles:
   # work
   wheredeMacBook-Pro-2.local:
     dotfiles:
+      - d_hammerspoon
+      - d_zsh_custom
       - f_inputrc
       - f_vimrc
-      - d_zsh_custom
       - f_daily
       - f_today
