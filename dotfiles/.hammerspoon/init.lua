@@ -1,4 +1,7 @@
+hs.loadSpoon("ReloadConfiguration")
+hs.loadSpoon("WinWin")
+
 local WinResize = require("WinResize")
 
-hs.loadSpoon("ReloadConfiguration")
+-- 自动加载
 spoon.ReloadConfiguration:start()
