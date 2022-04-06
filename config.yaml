@@ -8,39 +8,40 @@ dotfiles:
   d_hammerspoon:
     src: .hammerspoon
     dst: ~/.hammerspoon
-  f_inputrc:
-    src: .inputrc
-    dst: ~/.inputrc
-  f_vimrc:
-    src: .vimrc
-    dst: ~/.vimrc
   d_zsh_custom:
     src: .oh-my-zsh/custom
     dst: ~/.oh-my-zsh/custom
   f_daily:
     src: bin/daily
     dst: ~/bin/daily
-    chmod: "755"
+    chmod: 755
   f_today:
     src: bin/today
     dst: ~/bin/today
-    chmod: "755"
+    chmod: 755
+  f_inputrc:
+    src: .inputrc
+    dst: ~/.inputrc
+  f_vimrc:
+    src: .vimrc
+    dst: ~/.vimrc
 profiles:
   # home
   WheredeMacBook-Pro.local:
     dotfiles:
       - d_hammerspoon
-      - f_inputrc
-      - f_vimrc
       - d_zsh_custom
       - f_daily
       - f_today
+      - f_inputrc
+      - f_vimrc
+
   # work
   wheredeMacBook-Pro-2.local:
     dotfiles:
       - d_hammerspoon
       - d_zsh_custom
-      - f_inputrc
-      - f_vimrc
       - f_daily
       - f_today
+      - f_inputrc
+      - f_vimrc
