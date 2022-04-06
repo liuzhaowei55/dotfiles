@@ -27,6 +27,9 @@ dotfiles:
   f_vimrc:
     src: .vimrc
     dst: ~/.vimrc
+  f_Brewfile:
+    src: Brewfile
+    dst: ~/Brewfile
 profiles:
   # home
   WheredeMacBook-Pro.local:
@@ -37,6 +40,7 @@ profiles:
       - f_today
       - f_inputrc
       - f_vimrc
+      - f_Brewfile
 
   # work
   wheredeMacBook-Pro-2.local:
@@ -47,3 +51,4 @@ profiles:
       - f_today
       - f_inputrc
       - f_vimrc
+      - f_Brewfile
