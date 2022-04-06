@@ -3,7 +3,9 @@ config:
   create: true
   dotpath: dotfiles
   cmpignore:
-    - "*/.DS_Store"
+    - ".DS_Store"
+  instignore:
+    - ".DS_Store"
 dotfiles:
   d_hammerspoon:
     src: .hammerspoon
