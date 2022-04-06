@@ -22,3 +22,11 @@ end)
 hs.hotkey.bind({"cmd", "alt"}, "return", function()
     spoon.WinWin:moveAndResize("maximize")
 end)
+
+hs.hotkey.bind({"cmd", "alt"}, "-", function()
+    spoon.WinWin:moveAndResize("minimize")
+end)
+
+hs.hotkey.bind({"cmd", "alt"}, "=", function()
+    spoon.WinWin:moveAndResize("fullscreen")
+end)
