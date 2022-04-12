@@ -13,6 +13,10 @@ dotfiles:
   d_zsh_custom:
     src: .oh-my-zsh/custom
     dst: ~/.oh-my-zsh/custom
+  f_command_helper:
+    src: bin/command_helper.sh
+    dst: ~/bin/command_helper.sh
+    chmod: 755
   f_daily:
     src: bin/daily
     dst: ~/bin/daily
@@ -47,6 +51,7 @@ profiles:
     dotfiles:
       - d_hammerspoon
       - d_zsh_custom
+      - f_command_helper
       - f_daily
       - f_today
       - f_inputrc
