@@ -40,6 +40,7 @@ profiles:
     dotfiles:
       - d_hammerspoon
       - d_zsh_custom
+      - f_command_helper
       - f_daily
       - f_today
       - f_inputrc
