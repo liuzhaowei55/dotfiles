@@ -5,9 +5,11 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 brew "starship"
+brew "supervisor"
 
 cask "appcleaner"
 cask "font-fira-code-nerd-font"
 cask "font-jetbrains-mono"
 cask "jetbrains-toolbox"
 cask "hammerspoon"
+cask "multipasss"
