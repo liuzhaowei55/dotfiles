@@ -6,6 +6,7 @@ tap "homebrew/services"
 
 brew "starship"
 brew "supervisor"
+brew "java11"
 
 cask "appcleaner"
 cask "font-fira-code-nerd-font"
