@@ -6,6 +6,8 @@ tap "homebrew/services"
 
 brew "libressl"
 brew "gpg"
+brew "monkeysphere"
+brew "paperkey"
 brew "starship"
 brew "supervisor"
 brew "openjdk@11"
