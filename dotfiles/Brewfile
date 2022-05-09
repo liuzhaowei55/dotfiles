@@ -4,10 +4,11 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 
+brew "libressl"
+brew "gpg"
 brew "starship"
 brew "supervisor"
 brew "openjdk@11"
-brew "libressl"
 
 cask "appcleaner"
 cask "font-fira-code-nerd-font"
