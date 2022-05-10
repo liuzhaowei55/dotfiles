@@ -6,6 +6,7 @@ tap "homebrew/services"
 
 brew "libressl"
 brew "gpg"
+brew "pinentry-mac"
 brew "monkeysphere"
 brew "paperkey"
 brew "starship"

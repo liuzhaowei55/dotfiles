@@ -7,6 +7,10 @@ config:
   instignore:
     - ".DS_Store"
 dotfiles:
+  d_gnupg:
+    src: .gnupg
+    dst: ~/.gnupg
+    chmod: 700
   d_hammerspoon:
     src: .hammerspoon
     dst: ~/.hammerspoon
@@ -38,6 +42,7 @@ profiles:
   # home
   WheredeMacBook-Pro.local:
     dotfiles:
+      - d_gnupg
       - d_hammerspoon
       - d_zsh_custom
       - f_command_helper
@@ -50,6 +55,7 @@ profiles:
   # work
   wheredeMacBook-Pro-2.local:
     dotfiles:
+      - d_gnupg
       - d_hammerspoon
       - d_zsh_custom
       - f_command_helper
