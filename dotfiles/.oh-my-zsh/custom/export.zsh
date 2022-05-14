@@ -20,5 +20,5 @@ export CPPFLAGS="-I$HOMEBREW_PREFIX/opt/libressl/include"
 export PKG_CONFIG_PATH="$HOMEBREW_PREFIX/opt/libressl/lib/pkgconfig"
 
 #GnuPG
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-export GPG_TTY=$(tty)
+export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
+export GPG_TTY="$(tty)"
