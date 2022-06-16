@@ -42,8 +42,6 @@ profiles:
   # home
   WheredeMacBook-Pro.local:
     dotfiles:
-      - d_gnupg
-      - d_hammerspoon
       - d_zsh_custom
       - f_command_helper
       - f_daily
@@ -55,8 +53,6 @@ profiles:
   # work
   wheredeMacBook-Pro-2.local:
     dotfiles:
-      - d_gnupg
-      - d_hammerspoon
       - d_zsh_custom
       - f_command_helper
       - f_daily
