@@ -1,31 +1,31 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env sh
 
-echo "\n====== upgrade_oh_my_zsh ======"
-sh $ZSH/tools/upgrade.sh
+printf "\n====== upgrade_oh_my_zsh ======\n"
+sh "$ZSH/tools/upgrade.sh"
 
 if command -v brew >/dev/null 2>&1; then
-    echo "\n====== brew update ======"
+    printf "\n====== brew update ======\n"
     brew update
 
-    echo "\n====== brew upgrade ======"
+    printf "\n====== brew upgrade ======\n"
     brew upgrade
 
-    echo "\n====== brew cask upgrade ======"
+    printf "\n====== brew cask upgrade ======\n"
     brew upgrade --cask
 
-    echo "\n====== brew cleanup ======"
+    printf "\n====== brew cleanup ======\n"
     brew cleanup
 fi
 
 if command -v composer >/dev/null 2>&1; then
-    echo "\n====== composer self-update ======"
+    printf "\n====== composer self-update ======\n"
     composer self-update
 
-    echo "\n====== composer global update ======"
+    printf "\n====== composer global update ======\n"
     composer global update
 fi
 
 if command -v npm >/dev/null 2>&1; then
-    echo "\n====== npm update -g --save ======"
+    printf "\n====== npm update -g --save ======\n"
     npm update -g --save
 fi
