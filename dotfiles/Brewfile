@@ -17,6 +17,7 @@ brew "openjdk@11"
 cask "appcleaner"
 cask "snipaste"
 cask "raycast"
+cask "keepassxc"
 cask "google-chrome"
 
 # 开发工具
