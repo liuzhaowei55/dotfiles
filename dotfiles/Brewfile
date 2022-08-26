@@ -13,11 +13,17 @@ brew "starship"
 brew "supervisor"
 brew "openjdk@11"
 
+# 系统工具
 cask "appcleaner"
 cask "snipaste"
+cask "raycast"
+cask "google-chrome"
+
+# 开发工具
 cask "font-fira-code-nerd-font"
 cask "font-jetbrains-mono"
 cask "jetbrains-toolbox"
+cask "visual-studio-code"
 cask "dbngin"
 cask "tableplus"
 cask "sequel-ace"
