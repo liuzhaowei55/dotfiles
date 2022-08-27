@@ -18,6 +18,7 @@ cask "appcleaner"
 cask "snipaste"
 cask "raycast"
 cask "keepassxc"
+cask "keka"
 cask "google-chrome"
 
 # 开发工具
