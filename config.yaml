@@ -40,7 +40,7 @@ dotfiles:
     dst: ~/Brewfile
 profiles:
   # home
-  WheredeMacBook-Pro.local:
+  w-mbp.local:
     dotfiles:
       - d_zsh_custom
       - f_command_helper
