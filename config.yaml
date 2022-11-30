@@ -22,12 +22,12 @@ dotfiles:
     dst: ~/bin/command_helper.sh
     chmod: 755
   f_daily:
-    src: bin/daily
-    dst: ~/bin/daily
+    src: .local/bin/daily
+    dst: ~/.local/bin/daily
     chmod: 755
   f_today:
-    src: bin/today
-    dst: ~/bin/today
+    src: .local/bin/today
+    dst: ~/.local/bin/today
     chmod: 755
   f_inputrc:
     src: .inputrc
