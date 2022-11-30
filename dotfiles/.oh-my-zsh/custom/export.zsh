@@ -1,11 +1,15 @@
 #!/usr/bin/env zsh
 
 if [ -d $HOME/bin ]; then
-  export PATH=$HOME/bin:$PATH
+  PATH=$HOME/bin:$PATH
+fi
+
+if [ -d "$HOME/.local/bin" ]; then
+  PATH="$HOME/.local/bin:$PATH"
 fi
 
 if [ -d $HOME/.composer/vendor/bin ]; then
-  export PATH=$HOME/.composer/vendor/bin:$PATH
+  PATH=$HOME/.composer/vendor/bin:$PATH
 fi
 
 # java

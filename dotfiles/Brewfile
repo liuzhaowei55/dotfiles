@@ -10,6 +10,7 @@ brew "pinentry-mac"
 brew "monkeysphere"
 brew "paperkey"
 brew "starship"
+brew "openjdk@11"
 
 # 系统工具
 cask "appcleaner"
@@ -17,6 +18,7 @@ cask "snipaste"
 cask "raycast"
 cask "keepassxc"
 cask "keka"
+cask "input-source-pro"
 
 
 # 开发工具
@@ -29,7 +31,6 @@ cask "tableplus"
 cask "sequel-ace"
 
 # brew "supervisor"
-# brew "openjdk@11"
 # cask "google-chrome"
 # cask "multipass"
 # cask "hammerspoon"
