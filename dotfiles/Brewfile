@@ -11,6 +11,7 @@ brew "monkeysphere"
 brew "paperkey"
 brew "starship"
 brew "openjdk@11"
+brew "nvm"
 
 # 系统工具
 cask "appcleaner"
