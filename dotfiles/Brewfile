@@ -20,6 +20,7 @@ cask "raycast"
 cask "keepassxc"
 cask "keka"
 cask "input-source-pro"
+cask "hammerspoon"
 
 
 # 开发工具
@@ -34,4 +35,4 @@ cask "sequel-ace"
 # brew "supervisor"
 # cask "google-chrome"
 # cask "multipass"
-# cask "hammerspoon"
+
