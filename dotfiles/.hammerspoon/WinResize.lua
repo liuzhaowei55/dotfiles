@@ -9,6 +9,11 @@ hs.hotkey.bind({"ctrl", "alt", "shift"}, "M", function()
 end)
 
 -- 缩小
-hs.hotkey.bind({"cmd", "alt"}, "-", function()
+hs.hotkey.bind({"ctrl", "alt", "shift"}, "-", function()
     spoon.WinWin:moveAndResize("shrink")
+end)
+
+-- 放大
+hs.hotkey.bind({"ctrl", "alt", "shift"}, "=", function()
+    spoon.WinWin:moveAndResize("expand")
 end)
