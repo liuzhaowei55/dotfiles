@@ -46,9 +46,10 @@ profiles:
       - f_Brewfile
 
   # work
-  wheredeMacBook-Pro-2.local:
+  w-mbp-work.local:
     dotfiles:
       - d_zsh_custom
+      - d_hammerspoon
       - f_daily
       - f_today
       - f_inputrc
