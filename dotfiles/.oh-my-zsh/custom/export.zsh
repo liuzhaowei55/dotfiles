@@ -13,7 +13,7 @@ if [ -d $HOME/.composer/vendor/bin ]; then
 fi
 
 # java default version
-export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 # libressl
 export PATH="$HOMEBREW_PREFIX/opt/libressl/bin:$PATH"
