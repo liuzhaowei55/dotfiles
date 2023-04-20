@@ -6,7 +6,7 @@
 # @raycast.mode fullOutput
 
 # Optional parameters:
-# @raycast.icon 🛜
+# @raycast.icon 📶
 
 # Documentation:
 # @raycast.description Wi-Fi 管理
