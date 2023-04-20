@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Open Wi-Fi
-# @raycast.mode fullOutput
+# @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon 📶
