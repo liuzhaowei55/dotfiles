@@ -7,8 +7,7 @@ tap "homebrew/services"
 brew "libressl"
 brew "gpg"
 brew "pinentry-mac"
-brew "monkeysphere"
-brew "paperkey"
+cask "tabby"
 brew "starship"
 brew "openjdk@11"
 brew "nvm"
@@ -22,7 +21,7 @@ cask "raycast"
 cask "keka"
 cask "keepassxc"
 cask "bitwarden"
-cask "google-chrome"
+
 
 # 开发工具
 cask "font-fira-code-nerd-font"
@@ -31,14 +30,13 @@ cask "jetbrains-toolbox"
 cask "visual-studio-code"
 cask "dbngin"
 cask "dbeaver-community"
-cask "redisinsight"
+cask "another-redis-desktop-manager"
 
-
+# brew "monkeysphere"
+# brew "paperkey"
+# cask "google-chrome"
 # brew "supervisor"
 # cask "multipass"
-
-# 开发工具
 # cask "tableplus"
 # cask "sequel-ace"
-# cask "another-redis-desktop-manager"
-
+# cask "redisinsight"
