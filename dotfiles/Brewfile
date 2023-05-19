@@ -32,6 +32,7 @@ cask "dbngin"
 cask "dbeaver-community"
 cask "another-redis-desktop-manager"
 
+# cask "gpg-suite"
 # brew "monkeysphere"
 # brew "paperkey"
 # cask "google-chrome"

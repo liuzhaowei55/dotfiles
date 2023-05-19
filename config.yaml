@@ -36,7 +36,7 @@ dotfiles:
     dst: ~/Brewfile
 profiles:
   # home
-  w-mbp.local:
+  w-mbp:
     dotfiles:
       - d_zsh_custom
       - d_hammerspoon
