@@ -7,12 +7,12 @@ tap "homebrew/services"
 brew "libressl"
 brew "gpg"
 brew "pinentry-mac"
-cask "tabby"
 brew "starship"
 brew "openjdk@11"
 brew "nvm"
 
 # 系统工具
+cask "tabby"
 cask "appcleaner"
 cask "input-source-pro"
 cask "hammerspoon"
