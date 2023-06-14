@@ -9,7 +9,7 @@ brew "gpg"
 brew "pinentry-mac"
 brew "starship"
 brew "openjdk@11"
-brew "nvm"
+brew "node@18"
 
 # 系统工具
 cask "tabby"
@@ -33,6 +33,7 @@ cask "dbngin"
 cask "dbeaver-community"
 cask "another-redis-desktop-manager"
 
+# brew "nvm"
 # brew "monkeysphere"
 # brew "paperkey"
 # brew "supervisor"
