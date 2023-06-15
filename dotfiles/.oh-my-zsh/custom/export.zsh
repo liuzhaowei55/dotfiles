@@ -18,9 +18,6 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 # libressl
 export PATH="$HOMEBREW_PREFIX/opt/libressl/bin:$PATH"
 
-# node@18
-export PATH="$HOMEBREW_PREFIX/opt/node@18/bin:$PATH"
-
 #GnuPG
 export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 export GPG_TTY="$(tty)"
