@@ -10,5 +10,5 @@ end)
 
 -- 打开 Terminal
 hs.hotkey.bind({"ctrl", "alt", "shift"}, "T", function()
-    hs.application.open("tabby")
+    hs.application.open("warp")
 end)
