@@ -14,7 +14,7 @@ brew "openjdk@11"
 brew "node@18", link: true
 
 # 系统工具
-cask "tabby"
+cask "warp"
 cask "appcleaner"
 cask "input-source-pro"
 cask "syntax-highlight"
@@ -36,6 +36,7 @@ cask "tableplus"
 cask "sequel-ace"
 cask "another-redis-desktop-manager"
 
+# cask "tabby"
 # brew "nvm"
 # brew "monkeysphere"
 # brew "paperkey"
