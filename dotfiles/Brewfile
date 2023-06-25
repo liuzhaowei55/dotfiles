@@ -12,6 +12,7 @@ brew "pinentry-mac"
 brew "starship"
 brew "openjdk@11"
 brew "node@18", link: true
+brew "ipinfo-cli"
 
 # 系统工具
 cask "warp"
