@@ -14,9 +14,10 @@
 
 # https://debugtalk.com/post/switch-macOS-web-proxy-in-elegant-way/
 # networksetup -listallnetworkservices
+# networksetup -listnetworkserviceorder
 
-networksetup -setwebproxystate USB\ 10/100/1000\ LAN off
-networksetup -setsecurewebproxystate USB\ 10/100/1000\ LAN off
-networksetup -setsocksfirewallproxystate USB\ 10/100/1000\ LAN off
+networksetup -setwebproxystate Wi-Fi off
+networksetup -setsecurewebproxystate Wi-Fi off
+networksetup -setsocksfirewallproxystate Wi-Fi off
 
 networksetup -setairportpower en0 off
