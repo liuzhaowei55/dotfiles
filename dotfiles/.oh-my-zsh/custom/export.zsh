@@ -12,6 +12,10 @@ if [ -d $HOME/.composer/vendor/bin ]; then
   PATH=$HOME/.composer/vendor/bin:$PATH
 fi
 
+if [ -d $HOME/go/bin ]; then
+  PATH=$HOME/go/bin:$PATH
+fi
+
 # java default version
 export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
