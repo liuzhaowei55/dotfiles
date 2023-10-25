@@ -10,7 +10,7 @@ brew "libressl"
 brew "gpg"
 brew "pinentry-mac"
 brew "openjdk@11"
-brew "node@18", link: true
+brew "node@20", link: true
 brew "ipinfo-cli"
 
 # 系统工具
