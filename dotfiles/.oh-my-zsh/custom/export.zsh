@@ -17,7 +17,7 @@ if [ -d $HOME/go/bin ]; then
 fi
 
 # java default version
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
 # libressl
 export PATH="$HOMEBREW_PREFIX/opt/libressl/bin:$PATH"
