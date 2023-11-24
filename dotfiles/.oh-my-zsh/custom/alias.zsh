@@ -11,4 +11,5 @@ alias ga-status="gpg-agent status"
 # java
 alias java-1.8="export JAVA_HOME=$(/usr/libexec/java_home -v 1.8); java -version"
 alias java-11="export JAVA_HOME=$(/usr/libexec/java_home -v 11); java -version"
+alias java-17="export JAVA_HOME=$(/usr/libexec/java_home -v 17); java -version"
 alias java-21="export JAVA_HOME=$(/usr/libexec/java_home -v 21); java -version"
