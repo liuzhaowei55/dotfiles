@@ -7,7 +7,7 @@ tap "homebrew/services"
 brew "libressl"
 brew "gpg"
 brew "pinentry-mac"
-brew "openjdk@11"
+brew "zulu21"
 brew "node@20", link: true
 brew "ipinfo-cli"
 
