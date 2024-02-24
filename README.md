@@ -8,6 +8,8 @@ git clone git@github.com:liuzhaowei55/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
 # 安装依赖
 git submodule update --init
 # 安装 dotdrop 依赖
+python3 -m venv .venv
+source .venv/bin/activate # deactivate
 pip3 install -r dotdrop/requirements.txt --user
 # 安装系统依赖
 brew install coreutils libmagic
