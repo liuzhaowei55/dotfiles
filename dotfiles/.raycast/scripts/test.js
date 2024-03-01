@@ -14,3 +14,19 @@
 
 console.log("Hello World! Argument1 value: " + process.argv.slice(2)[0])
 
+const { exec } = require('child_process');
+exec('echo $PATH', (err, output) => {
+  if (err) {
+    console.error("执行命令出错: ", err);
+    return;
+  }
+  console.log("$PATH: \n", output);
+});
+
+exec('which node', (err, output) => {
+    if (err) {
+      console.error("执行命令出错: ", err);
+      return;
+    }
+    console.log("PATH: \n", output);
+  });
