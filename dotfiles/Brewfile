@@ -8,8 +8,8 @@ tap "homebrew/services"
 brew "libressl"
 brew "gpg"
 brew "pinentry-mac"
-brew "node@20", link: true
 brew "ipinfo-cli"
+brew "asdf"
 
 # 系统工具
 cask "warp"

@@ -11,9 +11,6 @@ if command -v brew >/dev/null 2>&1; then
     printf "\n====== brew upgrade ======\n"
     brew upgrade
 
-    printf "\n====== brew link ======\n"
-    brew unlink node@20 && brew link --overwrite node@20
-
     printf "\n====== brew cleanup ======\n"
     brew cleanup
 fi
