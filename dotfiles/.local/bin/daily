@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env zsh
 
 if command -v zsh >/dev/null 2>&1; then
     zsh "$ZSH/tools/upgrade.sh"
@@ -16,9 +16,6 @@ if command -v brew >/dev/null 2>&1; then
 fi
 
 if command -v composer >/dev/null 2>&1; then
-    printf "\n====== composer self-update ======\n"
-    composer self-update
-
     printf "\n====== composer global update ======\n"
     composer global update
 fi
