@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env /opt/homebrew/opt/node@20/bin/node
 
 // Required parameters:
 // @raycast.schemaVersion 1

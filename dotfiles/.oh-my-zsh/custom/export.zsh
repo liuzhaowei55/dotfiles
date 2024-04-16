@@ -16,13 +16,13 @@ if [ -d $HOME/go/bin ]; then
   PATH=$HOME/go/bin:$PATH
 fi
 
-export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
-
-# java default version
-export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+export PATH="$HOMEBREW_PREFIX/opt/node@20/bin:$PATH"
 
 # libressl
 export PATH="$HOMEBREW_PREFIX/opt/libressl/bin:$PATH"
+
+# java default version
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 #GnuPG
 export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
