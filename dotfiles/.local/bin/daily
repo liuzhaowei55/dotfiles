@@ -20,6 +20,11 @@ if command -v composer >/dev/null 2>&1; then
     composer global update
 fi
 
+if command -v corepack &>/dev/null; then
+    printf "\n====== corepack install --global pnpm@latest ======\n"
+    corepack install --global pnpm@latest
+fi
+
 if command -v npm >/dev/null 2>&1; then
     printf "\n====== npm update -g ======\n"
     npm update -g
