@@ -20,7 +20,7 @@ fi
 export PATH="$HOMEBREW_PREFIX/opt/libressl/bin:$PATH"
 
 # java default version
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
 #GnuPG
 export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
