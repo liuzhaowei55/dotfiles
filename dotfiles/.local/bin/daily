@@ -34,3 +34,7 @@ if command -v pnpm >/dev/null 2>&1; then
     printf "\n====== pnpm update -g ======\n"
     pnpm update -g
 fi
+
+# if command -v ngrok &>/dev/null; then
+#     eval "$(ngrok completion)"
+# fi
