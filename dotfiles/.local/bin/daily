@@ -1,10 +1,10 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
-if command -v zsh >/dev/null 2>&1; then
+if command -v zsh &>/dev/null; then
     zsh "$ZSH/tools/upgrade.sh"
 fi
 
-if command -v brew >/dev/null 2>&1; then
+if command -v brew &>/dev/null; then
     printf "\n====== brew update ======\n"
     brew update
 
@@ -15,26 +15,22 @@ if command -v brew >/dev/null 2>&1; then
     brew cleanup
 fi
 
-if command -v composer >/dev/null 2>&1; then
+if command -v composer &>/dev/null; then
     printf "\n====== composer global update ======\n"
     composer global update
 fi
 
 if command -v corepack &>/dev/null; then
     printf "\n====== corepack install --global pnpm@latest ======\n"
-    corepack install --global pnpm@latest
+    corepack enable pnpm && corepack install --global pnpm@latest
 fi
 
-if command -v npm >/dev/null 2>&1; then
+if command -v npm &>/dev/null; then
     printf "\n====== npm update -g ======\n"
     npm update -g
 fi
 
-if command -v pnpm >/dev/null 2>&1; then
+if command -v pnpm &>/dev/null; then
     printf "\n====== pnpm update -g ======\n"
     pnpm update -g
 fi
-
-# if command -v ngrok &>/dev/null; then
-#     eval "$(ngrok completion)"
-# fi
