@@ -21,6 +21,11 @@ if [ -d "$HOMEBREW_PREFIX/opt/libressl/bin" ]; then
   export PATH="$HOMEBREW_PREFIX/opt/libressl/bin:$PATH"
 fi
 
+# node@20
+if [ -d "$HOMEBREW_PREFIX/opt/node@20/bin" ]; then
+  export PATH="$HOMEBREW_PREFIX/opt/node@20/bin:$PATH"
+fi
+
 # java default version
 export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
