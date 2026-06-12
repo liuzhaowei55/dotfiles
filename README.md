@@ -1,5 +1,11 @@
 # dotfiles
 
+## 相关链接
+
+- Homebrew https://github.com/homebrew/brew
+- pipx https://github.com/pypa/pipx
+- dotdrop https://github.com/deadc0de6/dotdrop
+
 ## 安装
 
 ```bash
