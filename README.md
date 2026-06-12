@@ -6,28 +6,28 @@
 - pipx https://github.com/pypa/pipx
 - dotdrop https://github.com/deadc0de6/dotdrop
 
-## 安装
+## 初始化
 
 ```bash
 # 克隆项目到 HOME 目录
 git clone git@github.com:liuzhaowei55/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
 # 安装依赖
 git submodule update --init
-# 安装 dotdrop 依赖
-python3 -m venv .venv
-source .venv/bin/activate # deactivate
-pip3 install -r dotdrop/requirements.txt --user
-# 安装系统依赖
-brew install coreutils libmagic
+```
+
+## 安装 dotdrop
+
+```bash
+pipx install dotdrop
 ```
 
 ## 使用
 
 ```bash
 # 使用帮助
-./dotdrop.sh -h
+dotdrop -h
 # 对比
-./dotdrop.sh compare --profile=home
+dotdrop compare --profile=w-mbp
 # 复制 dotfiles
-./dotdrop.sh install --profile=home
+dotdrop install --profile=w-mbp
 ```
